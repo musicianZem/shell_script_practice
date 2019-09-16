@@ -1,6 +1,6 @@
 #!/bin/bash
 
-currentpath=`pwd`
+currentpath=`pwd` # bash "pwd" result to var "$currentpath"
 
 for file in $currentpath/shell[0-9][0-9]*
 do

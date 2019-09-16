@@ -8,7 +8,7 @@ while read line
 do
     echo $line
     $line
-done < 1.txt
+done < input.txt 
 
 
 echo "" # empty line
@@ -18,7 +18,7 @@ echo "" # empty line
 echo " ************************** "
 echo " * using value, file read * "
 echo " ************************** "
-inp='1.txt'
+inp='input.txt'
 while IFS= read -r line
 do
     echo $line
