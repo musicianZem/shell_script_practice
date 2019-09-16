@@ -10,7 +10,9 @@ do
     $line
 done < 1.txt
 
-echo ""
+
+echo "" # empty line
+
 
 # input file
 echo " ************************** "
@@ -22,3 +24,15 @@ do
     echo $line
     $line
 done < "$inp"
+
+
+echo "" # empty line
+
+
+echo " ************************** "
+echo " * shell result as input  * "
+echo " ************************** "
+ls -ailh | while read line
+do
+    echo $line
+done
